@@ -1,2 +1,3 @@
 add_lunch_combo illusion_flo-userdebug
+add_lunch_combo illusion_galaxysmtd-userdebug
 add_lunch_combo illusion_mako-userdebug

@@ -36,9 +36,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/illusion/prebuilt/etc/init.d/90userinit:system/etc/init.d/90userinit
 
-# Init script file with omni extras
+# Init script file with illusion extras
 PRODUCT_COPY_FILES += \
-    vendor/illusion/prebuilt/etc/init.local.rc:root/init.omni.rc
+    vendor/illusion/prebuilt/etc/init.local.rc:root/init.illusion.rc
 
 # Enable SIP and VoIP on all targets
 PRODUCT_COPY_FILES += \

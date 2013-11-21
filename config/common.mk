@@ -1,9 +1,5 @@
 PRODUCT_BRAND ?= illusion
 
-# bootanimation
-PRODUCT_COPY_FILES += \
-	vendor/illusion/bootanimation.zip:system/media/bootanimation.zip
-
 # general properties
 PRODUCT_PROPERTIES_OVERRIDE += \
 	keyguard.no_require_sim=true \

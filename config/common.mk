@@ -16,6 +16,9 @@ ifneq ($(TARGET_BUILD_VARIANT),eng)
 ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=1
 endif
 
+# Embed SuperUser
+SUPERUSER_EMBEDDED := true
+
 # Backup Tool
 PRODUCT_COPY_FILES += \
     vendor/illusion/prebuilt/bin/backuptool.sh:system/bin/backuptool.sh \

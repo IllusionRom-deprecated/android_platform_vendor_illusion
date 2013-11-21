@@ -1,11 +1,14 @@
-# Additional packages
+
+# Required packages
 PRODUCT_PACKAGES += \
 	Development \
 	LatinIME \
 	VideoEditor \
 	VoiceDialer \
 	SoundRecorder \
-	Basic
+	Basic \
+	Superuser \
+	su
 
 # Additional apps
 PRODUCT_PACKAGES += \

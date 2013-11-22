@@ -8,7 +8,8 @@ PRODUCT_PACKAGES += \
 	SoundRecorder \
 	Basic \
 	Superuser \
-	su
+	su \
+        IllusionSettings
 
 # Additional apps
 PRODUCT_PACKAGES += \

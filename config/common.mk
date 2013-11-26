@@ -1,8 +1,5 @@
 PRODUCT_BRAND ?= illusion
 
-# Theme Engine
-include vendor/illusion/config/themes_common.mk
-
 # general properties
 PRODUCT_PROPERTIES_OVERRIDE += \
 	keyguard.no_require_sim=true \

@@ -1,4 +1,3 @@
-
 # Required packages
 PRODUCT_PACKAGES += \
 	Development \
@@ -9,7 +8,9 @@ PRODUCT_PACKAGES += \
 	Basic \
 	Superuser \
 	su \
-        IllusionSettings
+        IllusionSettings \
+        IllusionPapers
+
 
 # Additional apps
 PRODUCT_PACKAGES += \

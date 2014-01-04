@@ -23,7 +23,7 @@ do
     else
         # Prepend group project ownership to each project.
         origin=`grep "$project" $rdir/.repo/manifest.xml | awk {'print $4'} | cut -f2 -d '"'`
-        if [ "$origin" = "ill" ]; then
+        if [ "$origin" = "ill" ] || [ "$origin" = "github" ]; then
             proj_credit=IllusionRom
         elif [ "$origin" = "aosp" ]; then
             proj_credit=AOSP

@@ -9,15 +9,12 @@ PRODUCT_PACKAGES += \
 	Superuser \
 	su \
         IllusionSettings \
-        IllusionPapers
-
+        IllusionPapers \
+	BluetoothExt
 
 # Additional apps
 PRODUCT_PACKAGES += \
-	Apollo \
 	DashClock \
-	DSPManager \
-	libcyanogen-dsp \
 	audio_effects.conf \
 	MonthCalendarWidget
 

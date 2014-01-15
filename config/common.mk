@@ -65,7 +65,3 @@ PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/lib/libdvm.so:system/lib/libdvm.so \
         $(LOCAL_PATH)/lib/libqc-opt.so:system/lib/libqc-opt.so
 endif
-
-# Bootanimation
-PRODUCT_COPY_FILES += \
-        vendor/illusion/bootanimation/Illusion$(TARGET_BOOTANIMATION_VARIANT).zip:system/media/bootanimation.zip

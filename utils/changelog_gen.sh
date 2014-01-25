@@ -42,4 +42,4 @@ do
     fi
 done
 
-exit 0
+return 0

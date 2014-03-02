@@ -47,6 +47,7 @@ PRODUCT_COPY_FILES += \
 
 # Additional packages
 -include vendor/illusion/config/packages.mk
+-include vendor/illusion/config/themes.mk
 
 # Versioning
 -include vendor/illusion/config/version.mk

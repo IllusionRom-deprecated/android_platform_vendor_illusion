@@ -45,6 +45,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
+# GPS Security Config
+PRODUCT_COPY_FILES += \
+    vendor/illusion/prebuilt/etc/sec_config:system/etc/sec_config
+
 # Additional packages
 -include vendor/illusion/config/packages.mk
 -include vendor/illusion/config/themes.mk

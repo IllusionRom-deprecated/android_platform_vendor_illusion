@@ -1,25 +1,29 @@
 # Required packages
 PRODUCT_PACKAGES += \
+	Basic \
+	BluetoothExt \
+	CellBroadcastReceiver \
 	Development \
 	LatinIME \
 	VideoEditor \
 	VoiceDialer \
-	SoundRecorder \
-	Basic \
+	SoundRecorder
+
+# Superuser packages
+PRODUCT_PACKAGES += \
 	Superuser \
-	su \
-        IllusionSettings \
-        IllusionPapers \
-	BluetoothExt
+	su
+
+# Illusion packages
+PRODUCT_PACKAGES += \
+	IllusionSettings \
+	IllusionPapers
 
 # Additional apps
 PRODUCT_PACKAGES += \
 	DashClock \
 	audio_effects.conf \
 	MonthCalendarWidget
-
-PRODUCT_PACKAGES += \
-	CellBroadcastReceiver
 
 # Additional tools
 PRODUCT_PACKAGES += \
@@ -36,4 +40,3 @@ PRODUCT_PACKAGES += \
 	ntfsfix \
 	ntfs-3g \
 	mkntfs
-

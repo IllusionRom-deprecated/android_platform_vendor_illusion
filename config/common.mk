@@ -60,6 +60,11 @@ PRODUCT_COPY_FILES += \
 # Add our overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/illusion/overlay/common
 
+# Google IME
+PRODUCT_COPY_FILES += \
+    vendor/illusion/prebuilt/IME/GoogleIME.apk:system/app/GoogleIME.apk \
+    vendor/illusion/prebuilt/IME/libjni_unbundled_latinimegoogle.so:system/lib/libjni_unbundled_latinimegoogle.so
+
 # Qualcomm Optimized Dalvik
 LOCAL_PATH:= vendor/illusion/prebuilt
 

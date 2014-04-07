@@ -1,4 +1,4 @@
-W# Versioning of the ROM
+# Versioning of the ROM
 
 ifdef BUILDTYPE_NIGHTLY
 	ROM_BUILDTYPE := NIGHTLY

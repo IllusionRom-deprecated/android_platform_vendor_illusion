@@ -81,9 +81,9 @@ if [ -n "${INTERACTIVE}" ]; then
 echo -e "${bldblu}Dropping to interactive shell${txtrst}"
         echo -en "${bldblu}Remeber to lunch you device:"
         if [ "${VENDOR}" == "ill" ]; then
-echo -e "[${bldgrn}lunch ill_$DEVICE-userdebug${bldblu}]${txtrst}"
+echo -e "[${bldgrn}lunch ill_$DEVICE-user${bldblu}]${txtrst}"
         else
-echo -e "[${bldgrn}lunch full_$DEVICE-userdebug${bldblu}]${txtrst}"
+echo -e "[${bldgrn}lunch full_$DEVICE-user${bldblu}]${txtrst}"
         fi
 bash --init-file build/envsetup.sh -i
 else
@@ -96,7 +96,7 @@ else
         # lunch/brunch device
         echo -e "${bldblu}Lunching device [$DEVICE] ${cya}(Includes dependencies sync)${txtrst}"
         export PREFS_FROM_SOURCE
-        lunch "ill_$DEVICE-userdebug";
+        lunch "ill_$DEVICE-user";
 
         echo -e "${bldblu}Starting compilation${txtrst}"
         mka bacon

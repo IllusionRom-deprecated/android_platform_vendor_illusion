@@ -25,6 +25,10 @@ PRODUCT_PACKAGES += \
 	audio_effects.conf \
 	MonthCalendarWidget
 
+# Shuttle
+PRODUCT_COPY_FILES += \
+    vendor/illusion/prebuilt/app/Shuttle.apk:system/app/Shuttle.apk
+
 # Additional tools
 PRODUCT_PACKAGES += \
 	openvpn \

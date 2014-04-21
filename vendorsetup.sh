@@ -16,5 +16,6 @@ add_lunch_combo ill_mako-user
 add_lunch_combo ill_n7000-user
 add_lunch_combo ill_n7100-user
 add_lunch_combo ill_t0lte-user
+add_lunch_combo ill_tilapia-user
 add_lunch_combo ill_vs980-user
 add_lunch_combo ill_vigor-user

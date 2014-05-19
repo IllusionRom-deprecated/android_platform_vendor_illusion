@@ -25,6 +25,13 @@ PRODUCT_PACKAGES += \
 	audio_effects.conf \
 	MonthCalendarWidget
 
+# Stagefright FFMPEG plugin
+PRODUCT_PACKAGES += \
+	libstagefright_soft_ffmpegadec \
+	libstagefright_soft_ffmpegvdec \
+	libFFmpegExtractor \
+	libnamparser
+
 # Shuttle
 PRODUCT_COPY_FILES += \
     vendor/illusion/prebuilt/app/Shuttle.apk:system/app/Shuttle.apk

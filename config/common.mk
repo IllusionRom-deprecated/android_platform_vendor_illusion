@@ -60,6 +60,10 @@ PRODUCT_COPY_FILES += \
 # Add our overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/illusion/overlay/common
 
+# Illusion IME
+PRODUCT_COPY_FILES += \
+vendor/illusion/prebuilt/app/IllusionKB.apk:system/app/IllusionKB.apk
+
 # Qualcomm Optimized Dalvik
 LOCAL_PATH:= vendor/illusion/prebuilt
 

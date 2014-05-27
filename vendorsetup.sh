@@ -12,6 +12,7 @@ add_lunch_combo ill_l900-user
 add_lunch_combo ill_i9300-user
 add_lunch_combo ill_i9305-user
 add_lunch_combo ill_ls980-user
+add_lunch_combo ill_m8-user
 add_lunch_combo ill_mako-user
 add_lunch_combo ill_n7000-user
 add_lunch_combo ill_n7100-user

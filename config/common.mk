@@ -63,15 +63,3 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/illusion/overlay/common
 # Illusion IME
 PRODUCT_COPY_FILES += \
 vendor/illusion/prebuilt/app/IllusionKB.apk:system/app/IllusionKB.apk
-
-# Qualcomm Optimized Dalvik
-LOCAL_PATH:= vendor/illusion/prebuilt
-
-ifneq ($(filter msm8610 msm8x26 msm8226 msm8x74 msm8974 msm8960 msm8660 msm7627a msm7630_surf apq8084 mpq8092,$(TARGET_BOARD_PLATFORM)),)
-PRODUCT_COPY_FILES += \
-        $(LOCAL_PATH)/bin/dalvikvm:system/bin/dalvikvm \
-        $(LOCAL_PATH)/bin/dexopt:system/bin/dexopt \
-        $(LOCAL_PATH)/lib/libcutils.so:system/lib/libcutils.so \
-        $(LOCAL_PATH)/lib/libdvm.so:system/lib/libdvm.so \
-        $(LOCAL_PATH)/lib/libqc-opt.so:system/lib/libqc-opt.so
-endif

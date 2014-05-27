@@ -4,7 +4,6 @@ PRODUCT_PACKAGES += \
 	BluetoothExt \
 	CellBroadcastReceiver \
 	Development \
-	LatinIME \
 	VideoEditor \
 	VoiceDialer \
 	SoundRecorder
